@@ -4,9 +4,9 @@
 
 ## SparrowDispatch
 
-可以在此处查看详细内容：[]()
+可以在此处查看详细内容：[《看穿 > 触摸事件分发》](http://blog.rubitree.com/15456255866253.html)
 
-[SparrowDispatch]()把源码中与事件分发相关的内容剥离了出来，至少有这两个优点：
+[SparrowDispatch](https://github.com/RubiTree/DispatchTouchEventTutorial/blob/master/app/src/main/java/com/rubitree/dispatchtoucheventtutorial/sparrowdispatch/sparrow5/SparrowDispatch.kt)把源码中与事件分发相关的内容剥离了出来，至少有这两个优点：
 
 1. 相比源码，这份代码足够短足够简单，那些跟事件分发无关的东西通通不要来干扰我
     1. 长度总共不超过150行，剔除了所有跟事件分发无关的代码，并且把一些因为其他细节导致写得比较复杂的逻辑，用更简单直接的方式表达了
@@ -161,4 +161,4 @@ fun getViewDispatchDelegate(layer: String = "View"): IDispatchDelegate {
 2. 从日志中能清楚看到，在`ViewGroup`拦截事件前后，事件是如何分发的
 
 ## License
-Apache License 2.0, here is the [LICENSE](https://github.com/RubiTree/NestedScrollingHistory/blob/master/LICENSE).
+Apache License 2.0, here is the [LICENSE](https://github.com/RubiTree/DispatchTouchEventTutorial/blob/master/LICENSE).
