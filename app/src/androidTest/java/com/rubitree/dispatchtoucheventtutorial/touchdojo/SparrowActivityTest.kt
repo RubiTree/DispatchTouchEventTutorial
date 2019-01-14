@@ -15,7 +15,7 @@ import org.junit.Assert.*
  * >> Others <<
  *
  *
- * Created by BigBear ; On 2019-01-14.
+ * Created by RubiTree ; On 2019-01-14.
  */
 class SparrowActivityTest {
 
