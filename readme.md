@@ -4,7 +4,7 @@
 
 ## SparrowDispatch
 
-可以在此处查看详细内容：[《看穿 > 触摸事件分发》](http://blog.rubitree.com/15456255866253.html)
+可以在此处查看详细内容：[《看穿 > 触摸事件分发》](https://juejin.im/post/5c3c8538f265da6142741d63)
 
 [SparrowDispatch](https://github.com/RubiTree/DispatchTouchEventTutorial/blob/master/app/src/main/java/com/rubitree/dispatchtoucheventtutorial/sparrowdispatch/sparrow5/SparrowDispatch.kt)把源码中与事件分发相关的内容剥离了出来，至少有这两个优点：
 
